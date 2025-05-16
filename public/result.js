@@ -437,11 +437,15 @@ function CreateTrigger(before) {
 function CreateFate() {
 	// Chance of adding a fate (60%)
 	if (chanceTrue(60)) {
+		const chosenPerm = document.querySelector("#permanence-chance").value;
 		// Fixed fate (25%), or random fate (75%)
 		if (chanceTrue(25)) {
-			return `<br><br>${FateReplacer(RandomValue(fixedFates), true)}.`;
+			const tempOrPerm = chanceTrue(chosenPerm) ? permFatesFixed : tempFatesFixed;
+			return `<br><br>${FateReplacer(RandomValue(tempOrPerm), true)}.`;
 		} else {
-			return `<br><br>The changes are ${FateReplacer(RandomValue(fates), true)}.`;
+			// Determine if permanent based on range
+			const verdict = chanceTrue(chosenPerm) ? "**permanent**" : RandomValue(fates);
+			return `<br><br>The changes are ${FateReplacer(verdict, true)}.`;
 		}
 	}
 	return "";

@@ -48,6 +48,7 @@ function Uppercase(str) {
  * @param {string} result The prompt
  * @returns The processed string
  */
+// TODO: Bring Marked into this and auto parse.
 function FixFormat(result) {
 	result = result.replace(/\n/g, "<br>")                                         // change \n to <br>
 			       .replace(/\*\*\*(.*?)\*\*\*/g, "<b><i>$1</i></b>")              // change ***...*** to <b><i>...</i></b>
