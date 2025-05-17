@@ -574,6 +574,7 @@ var NSFWbodymod = [
   "Your chest /t/ transforms into a butt",
   "You suddenly swap genitalia with /person/",
   "Your upper half /t/ transforms into a copy of your lower half",
+  "Your lower half /t/ transforms into a copy of your upper half",
   'You /t/ transform into a hung dorse with $[1,"**large**","**massive**","big milk-filled"] breasts',
   "Your crush suddenly fuses to your genitalia",
   "You /t/ grow hyper-sized lipples",
@@ -762,7 +763,6 @@ var NSFWinanimate = [
   "You /t/ transform into a /gender/sexdoll",
   'You /t/ transform into a $[1,"roll of condoms","condom"]',
   'You /t/ transform into a $[2,"#{1,"bra","pair of panties"}","strap-on"]',
-  "You /t/ transform into cum",
   "You /t/ transform into a /size/pair of breast implants",
 ];
 //=====================
@@ -1245,21 +1245,21 @@ var digimon = [
 ];
 //=====================
 var character = [
+  'your favourite character',
   '$[2,"Samus Aran *(Metroid)*","Ridley *(Metroid)*"]',
   '$[2,"GLaDOS *(Portal)*","Wheatley *(Portal)*"]',
   '$[2,"#{1,"Princess Peach","Princess Daisy","Rosalina"} *(Mario)*","Mario"]',
   '$[2,"Princess Zelda *(Zelda)*","Link *(Zelda)*"]',
   '$[2,"Raven *(Teen Titans)*","Beast Boy *(Teen Titans)*"]',
-  '$[2,"Rouge the Bat *(Sonic)*","Sonic the Hedgehog"]',
+  '$[2,"#{1,"Noodle","Cyborg Noodle"} *(Gorillaz)*","#{1,"2-D", "Murdoc", "Russel"} *(Gorillaz)*"]',
+  '$[2,"#{1,"Rouge the Bat","Amy Rose","Blaze the Cat"} *(Sonic)*","#{1,"Sonic the Hedgehog", "Shadow the Hedgehog"}"]',
   '$[2,"#{1,"Wonder Woman","Cheetah","Catwoman","Harley Quinn","Poison Ivy"} *(DC)*","Superman *(DC)*"]',
-  '$[2,"Leela *(Futurama)*","Fry *(Futurama)*"]',
   '$[2,"Lola Bunny *(Looney Tunes)*","Bugs Bunny *(Looney Tunes)*"]',
   '$[2,"Jessica Rabbit *(Who Framed Roger Rabbit)*","Bowser *(Mario)*"]',
   '$[2,"#{1,"Widowmaker","Mercy","D.Va","Tracer","Mei","Sombra","Symmetra"} *(Overwatch)*","Hanzo *(Overwatch)*"]',
   '$[2,"Judy Hopps *(Zootopia)*","Nick Wilde *(Zootopia)*"]',
   '$[2,"#{1,"Daphne","Velma"} *(Scooby-Doo)*","Scooby-Doo"]',
   '$[2,"Shego *(Kim Possible)*","Hercules"]',
-  '$[2,"#{1,"Rey","Leia","Ahsoka Tano"} *(Star Wars)*","Jar Jar Binks *(Star Wars)*"]',
   '$[2,"Starfire *(Teen Titans)*","Batman *(DC)*"]',
   '$[2,"Rapunzel","Beast *(Beauty and the beast)*"]',
   '$[2,"Ariel *(The Little Mermaid)*","Tarzan"]',
@@ -1281,10 +1281,7 @@ var character = [
   '$[2,"Lady Dimitrescu *(Resident Evil)*","Kratos *(God of War)*"]',
   '$[2,"Sylvie Laufeydottir *(Marvel)*","Loki *(Marvel)*"]',
   '$[2,"Shantae *(Half-Genie Hero)*","Dean *(The Iron Giant)*"]',
-  '$[2,"Minerva Mink *(Animaniacs)*","Jon Snow *(Game of Thrones)*"]',
-  '$[2,"Princess Fiona *(Shrek)*","Gandalf *(The Lord of the Rings)*"]',
-  '$[2,"Sailor Moon","Ratchet *(Ratchet and Clank)*"]',
-  '$[2,"Tawna *(Crash Bandicoot)*","Shrek"]',
+  '$[2,"Tawna *(Crash Bandicoot)*","Crash Bandicoot"]',
   '$[2,"#{1,"Misty","Nurse Joy","Jessie"} *(Pokémon)*","Goku *(Dragon Ball Z)*"]',
 ];
 var chars = [...character];
